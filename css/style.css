@@ -87,6 +87,13 @@ a {
   box-shadow: var(--shadow-soft);
 }
 
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 .brand .clinic-name {
   display: block;
   font-size: 18px;
@@ -859,9 +866,12 @@ main {
   font-size: 1.1rem;
 }
 
-.footer-brand .star {
-  color: var(--accent);
-  font-size: 1.2rem;
+.footer-brand img {
+  width: 34px;
+  height: 34px;
+  display: block;
+  object-fit: contain;
+  border-radius: 10px;
 }
 
 .footer-grid .label {
